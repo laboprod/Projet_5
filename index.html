@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Générateur de citations</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <header class="main-header" id="header">
+    <div class="bg-color">
+      <div class="container text-center">
+        <form>
+          <div class="wrapper wow fadeInUp delay-05s">
+            <h1 class="big-title">Le "J'me la racontotron"</h1>
+            <h2 class="top-title">Pour ceux qui aiment parler pour ne rien dire...</h2>
+            <h4 class="sub-title">Choisissez votre style</h4>
+              <select id="type">
+                <option value='politicien'> Style Politicien</option>
+                <option value='reunion'> Style Réunion Pro</option>
+              </select>
+              <h4 class="sub-title">Et le nombre de citations que vous souhaitez</h4>
+              <input type="number" id="quantite" min="1" max="5" value="1"/>
+          </div>
+          <button class="btn btn-large btn-primary" id='generer'>Générer</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="cta-1">
+    <div class="container">
+      <div class="row">
+        <div class="cta-info text-center">
+          <h3><span class="dec-tec"></span><p id="conteneur"></p></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer class="" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 footer-copyright">
+          Projet 5 - OpenClassrooms - François Labeau
+          <div class="credits">
+            
+            Générateur de citations Javascript
+          </div>
+        </div>
+  </footer>
+
+</body>
+
+<script src="main.js" type="text/javascript"></script>
+</html>

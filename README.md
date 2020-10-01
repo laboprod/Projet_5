@@ -1,1 +1,36 @@
-# Projet_5
+Ce projet a été spécialement conçu pour ceux qui débutent dans la programmation JavaScript et qui n'ont pas l'habitude de développer des algorithmes. Votre objectif sera à la fois simple et amusant : vous allez construire un générateur de citations ! Les citations seront construites aléatoirement en assemblant des morceaux de phrase.
+
+- Etape 1 : des citations aléatoires
+
+Le saviez-vous ? Il existe des générateurs de texte en ligne. Tapez "générateur de citation" et vous trouverez de nombreux sites qui génèrent aléatoirement des citations en assemblant des bouts de phrase.
+Vous avez le Pipotron et même le... Vandammotron. A votre tour d'en créer un ! Vous devez respecter les consignes suivantes :
+Les citations sont générées aléatoirement une par une à chaque appel du programme JavaScript
+
+Chaque citation est la combinaison d'au moins 3 morceaux de phrases (à vous de préparer ces morceaux de phrase)
+
+A défaut d'être intelligible, la phrase doit être cohérente (pas de point d'exclamation au milieu d'une phrase)
+
+Le programme peut simplement afficher le résultat dans la console JavaScript..
+
+- Etape 2 : des citations configurables
+
+Vous souhaitez maintenant aller plus loin et proposer les options suivantes :
+Choisir le nombre de citations générées (de 1 à 5)
+
+Choisir entre 2 types de générateurs de citations (vous devrez donc avoir 2 ensembles de phrases)
+
+Une fois les citations générées, proposer de générer de nouvelles citations ou d'arrêter là le programme
+
+Adaptez le programme pour qu'il puisse offrir ces fonctionnalités. A vous de jouer !
+
+Soutenance :
+
+À l'oral, en condition réelle, vous présenterez votre projet. La soutenance se déroulera comme suit :
+Présentation de votre code et de votre générateur de citations : 15-20 minutes
+Un moment questions-réponses : 10 minutes
+Votre évaluateur débriefera avec vous pendant 5 minutes à la fin de la soutenance.
+ 
+Compétences évaluées :
+
+- Concevoir un algorithme pour répondre à un cahier des charges
+- Mettre en œuvre la syntaxe de JavaScript dans un programme
